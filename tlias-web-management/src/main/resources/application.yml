@@ -1,0 +1,36 @@
+# 配置数据库的连接信息连接信息
+spring:
+  application:
+    name: tlias-web-management
+  #配置数据库连接信息
+  datasource:
+    url: jdbc:mysql://192.168.100.128:3306/tlias
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+  #限制单个文件大小不超过10MB，限制整个HTTP请求总大小不超过100MB
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+# Mybatis的配置信息
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启驼峰命名开关
+    map_underscore_to_camel_case: true
+  mapper-locations: classpath:mapper/*.xml  # 按照规范，同包同名就可以不用配置
+
+#spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+#阿里云oss
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: java-ai-lnmy
+    region: cn-beijing
+

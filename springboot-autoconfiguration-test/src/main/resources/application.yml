@@ -1,0 +1,6 @@
+#阿里云oss
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: java-ai-lnmy
+    region: cn-beijing

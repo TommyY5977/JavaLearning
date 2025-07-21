@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aliyun-oss-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aop-quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-autoconfiguration-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-web-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tlias-web-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-ai-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../Maven/repo/org/springframework/boot/spring-boot-starter-parent/3.2.10/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../Maven/repo/org/springframework/boot/spring-boot-starter-parent/3.2.8/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../Maven/repo/org/springframework/boot/spring-boot-starter-parent/3.4.6/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
